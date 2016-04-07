@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{width:100%;height:100%;}
+.blue-slide {
+	background: #20654d;	
+}
+.blue-bot{
+	display:flex;
+	justify-content: center;
+	/*flex-direction:row;*/
+	/*align-items:center;*/
+}
+
+
+.red-slide {
+	/*background:url(../img/31.jpg) no-repeat;
+	background-size:100% 100%;*/
+	background:#20654d;
+	position:relative;
+}
+.orange-slide {
+	background: #20654d;
+/*	box-shadow:0 0 3px 1px #000 inset;*/
+	position:relative;
+	overflow:hidden
+}
+.swiper-slide {
+	/*line-height: 300px;*/
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
+
+.u-audio {
+position: absolute;
+top: 40px;
+right: 0;
+width: 132px;
+height: 73px;
+z-index: 200;
+}
+#tianzhen{
+	
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:37%;
+	left:1%;
+	z-index:3;
+	/*animation:day 1.25s linear
+	-webkit-animation:day 1.25s linear;*/
+}
+
+/*@keyframes day{
+	from{width:0}
+	to{width:100%}
+}
+@-webkit-keyframes day{
+	from{width:0}
+	to{width:100%}
+}*/
+#rot img{border:2px solid #fff;}
+/*#rot{
+	animation:date 2s linear infinite;
+	-webkit-animation:date 2s linear infinite
+}
+@keyframes date{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+@-webkit-keyframes date{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}*/
+.play img{width: 10%;height: 5%;z-index: 5;position: fixed;top: 5%;right: 5%;}
+.pause img{width: 10%;height: 5%;	position: fixed;top: 5%;right: 5%;z-index: 5;}
+.play img{
+	/*width: 25%; height: 25%;*/	
+	animation: aa 3s linear infinite;
+	-moz-animation: aa 3s linear infinite;
+	-webkit-animation: aa 3s linear infinite;
+}
+@keyframes aa{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@-webkit-keyframes aa{
+	from{-webkit-transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes aa{
+	from{-moz-transform: rotate(0deg);}
+	to{-moz-transform: rotate(360deg);}
+}
+/*第四*/
+.pink-slide{
+	background:#20654d;
+	
+	text-align:left;
+	position:relative;
+}
+.gold-slide{
+	position:relative;
+	background:#20654d;
+}
+#pic{
+	width:30%;
+	height:auto;
+	animation:ban 2s linear;
+	-webkit-animation:ban 2s linear infinite;
+	position:absolute;
+	right:5%;
+	bottom:15%;
+	z-index:2;
+}
+#pic1{
+	width:5%;
+	height:20%;
+	position:absolute;
+	bottom:2%;
+	right:19%;
+}
+@keyframes ban{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+@-webkit-keyframes ban{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+.yell-slide{
+	background:#20654d;
+	position:relative;
+}
+
+#pic3{
+	width:45%;
+	height:auto;
+}
+
+
+
+
+
+
+
